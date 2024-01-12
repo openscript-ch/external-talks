@@ -10,37 +10,82 @@ body {
 h1 {
   padding: 0;
   margin-top: 2.3rem;
+  text-align: center;
 }
 
-ul {
+main ul {
   list-style: none;
   padding: 0;
 }
 
-ul li:first-child:last-child a {
+main ul li:first-child:last-child a, main ul li:first-child:last-child img {
   border-radius: 0.5rem;
 }
 
-ul li:first-child a {
+main ul li:first-child a, main ul li:first-child img {
   border-radius: 0.5rem 0.5rem 0 0;
 }
 
-ul li:last-child a {
+main ul li:last-child a, main ul li:last-child img {
   border-radius: 0 0 0.5rem 0.5rem;
 }
 
-a {
-  display: block;
+main li {
+  position: relative;
+  width: 480px;
+  height: 260px;
+}
+
+main li img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+main a {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   color: #000;
   font-size: 1.2rem;
   padding: 1rem;
-  background-color: #EEEE;
+  background-color: #EEE9;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  transition: 0.5s;
+  text-decoration: none;
 }
 
-a:hover {
+main a span {
+  font-size: 1rem;
+}
+
+main a:hover {
   background-color: #DDD;
 }
 
-img {
-  width: 100px;
+header img {
+  height: 100px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+footer ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }

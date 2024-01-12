@@ -1,0 +1,17 @@
+{
+  "name": "2024-01-12-spielend-programmieren-lernen",
+  "title": "Spielend Programmieren lernen",
+  "author": { "name": "Robin Bühler" },
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "slidev build --out ../../dist/2024-01-12-spielend-programmieren-lernen --base $BASE_PATH/2024-01-12-spielend-programmieren-lernen",
+    "dev": "slidev",
+    "export": "slidev export --output ../../dist/2024-01-12-spielend-programmieren-lernen"
+  },
+  "talk": {
+    "createdAt": "1705076860096",
+    "cover": "cover.jpg"
+
+  }
+}

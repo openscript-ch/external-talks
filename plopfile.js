@@ -1,3 +1,5 @@
+import limax from 'limax';
+
 export default function (plop) {
   plop.setGenerator('talk', {
     description: 'Add new talk',
@@ -11,17 +13,22 @@ export default function (plop) {
       message: 'Title:'
     }],
     actions: function(data) {
-      const date = new Date().toISOString().split('T')[0]
+      const createdAt = Date.now();
+      const date = new Date().toISOString().split('T')[0];
+      const slug = limax(data.title);
+      const path = `${date}-${slug}`;
       return [{
         type: 'add',
-        path: `talks/${date}/package.json`,
+        path: `talks/${path}/package.json`,
         templateFile: 'templates/package.json.hbs',
-        data: {date}
+        data: {createdAt, path}
       }, {
         type: 'add',
-        path: `talks/${date}/slides.md`,
+        path: `talks/${path}/slides.md`,
         templateFile: 'templates/slides.md.hbs',
-        data: {date}
+      }, {
+        type: 'add',
+        path: `talks/${path}/public/.gitkeep`,
       }]
     }
   });

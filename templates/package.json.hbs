@@ -1,12 +1,17 @@
 {
-  "name": "{{date}}",
+  "name": "{{path}}",
   "title": "{{title}}",
   "author": { "name": "{{author}}" },
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "build": "slidev build --out ../../dist/{{date}} --base $BASE_PATH/{{date}}",
+    "build": "slidev build --out ../../dist/{{path}} --base $BASE_PATH/{{path}}",
     "dev": "slidev",
-    "export": "slidev export --output ../../dist/{{date}}"
+    "export": "slidev export --output ../../dist/{{path}}"
+  },
+  "talk": {
+    "createdAt": "{{createdAt}}",
+    "cover": ""
+
   }
 }
