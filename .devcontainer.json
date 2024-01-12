@@ -1,4 +1,4 @@
 {
-	"name": "internal-talks-dev-container",
+	"name": "external-talks-dev-container",
 	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bookworm"
 }
