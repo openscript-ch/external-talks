@@ -1,7 +1,7 @@
 {
-  "name": "internal-talks-root",
+  "name": "external-talks-root",
   "version": "1.0.0",
-  "description": "Our internal talks.",
+  "description": "Our external talks.",
   "private": true,
   "type": "module",
   "scripts": {

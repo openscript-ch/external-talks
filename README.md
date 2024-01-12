@@ -1,6 +1,6 @@
-# internal-talks
+# external-talks
 
-Our internal talks.
+Our external talks.
 
 ## Useage
 
