@@ -44,8 +44,10 @@ Stellen Sie sich folgende Fragen:
 
 <v-clicks>
 
-- Wie viele Stunden pro Tag nutzen Sie Ihr Smartphone? Mehr als 3 Stunden unter der Woche?
-- Wie viele Stunden pro Tag spielen Sie Videospiele? Mehr als 1 Stunde und 21 Minuten unter der Woche?
+- Wie viele Stunden pro Tag nutzen Sie Ihr Smartphone?
+- Mehr als 3 Stunden unter der Woche?
+- Wie viele Stunden pro Tag spielen Sie Videospiele?
+- Mehr als 1 Stunde und 21 Minuten unter der Woche?
 - Welche Dauer der Smartphone-Nutzung betrachten Sie als ungesund?
 - Hat sich der Medienkonsum schon einmal negativ auf Ihr Leben ausgewirkt?
 - Investierten Sie ein ¼ der Zeit Ihres Medienkonsums in "neue Fähigkeiten erlernen", würde sich damit Ihr Leben tendenziell verbessern oder verschlechtern?
@@ -53,8 +55,70 @@ Stellen Sie sich folgende Fragen:
 </v-clicks>
 
 ---
+layout: two-cols-header
+---
 
-# Lernspiele
+# Gamification
+
+::left::
+
+<v-clicks>
+
+- Gamification könnte zu Spielifizierung übersetzt werden
+- Spieltypische Elemente werden in fremden Kontext angewendet
+- Verbesserte Benutzererfahrung in den Bereichen:
+  - Benutzermotivation
+  - Lernerfolg
+  - Kundenbindung
+  - ...
+
+</v-clicks>
+
+::right::
+
+<v-clicks>
+
+Beispiele von Gamification-Elementen:
+
+- Ranglisten
+- Kollaboration oder mehrere "Spieler"
+- Belohnung
+
+<div>
+  <img src="/gamification.png" style="width: 240px; margin: 0 auto" />
+  <Source url="https://www.palcs.org/what-is-gamification/" />
+</div>
+
+</v-clicks>
+
+
+---
+layout: two-cols-header
+---
+
+# Lernspiel: N-Back Challenge
+
+::left::
+
+left
+
+::right::
+
+- Trainiert Kurzzeitgedächnis und Konzentration
+- Setzt folgende Gamification-Elemente ein:
+  - Ranglisten
+  - Herausforderungen
+  - Drohung und Bestrafung
+
+---
+layout: two-cols-header
+---
+
+# Lernspiel: HelloChinese
+
+::left::
+
+::right::
 
 ---
 

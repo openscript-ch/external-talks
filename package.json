@@ -11,7 +11,7 @@
     "generate": "plop"
   },
   "dependencies": {
-    "@openscript-ch/slidev-theme": "^0.6.3",
+    "@openscript-ch/slidev-theme": "^0.6.4",
     "@slidev/cli": "^0.46.1",
     "limax": "^4.1.0"
   },

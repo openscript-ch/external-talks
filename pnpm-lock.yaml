@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@openscript-ch/slidev-theme':
-        specifier: ^0.6.3
-        version: 0.6.3(qrcode@1.5.3)(sass@1.69.7)(vue@3.4.14)
+        specifier: ^0.6.4
+        version: 0.6.4(qrcode@1.5.3)(sass@1.69.7)(vue@3.4.14)
       '@slidev/cli':
         specifier: ^0.46.1
         version: 0.46.1(@types/markdown-it@13.0.7)(postcss@8.4.33)(sass@1.69.7)(typescript@5.3.3)
@@ -775,8 +775,8 @@ packages:
     dev: false
     optional: true
 
-  /@openscript-ch/slidev-theme@0.6.3(qrcode@1.5.3)(sass@1.69.7)(vue@3.4.14):
-    resolution: {integrity: sha512-6rUtogGobSDrlPWCT/+xNL2F5HzLkAZSYtIfunOiS3DBoGZ2bVbxA57W/fDgqX90kIr68FfLNh3pDPdOdNqLJw==}
+  /@openscript-ch/slidev-theme@0.6.4(qrcode@1.5.3)(sass@1.69.7)(vue@3.4.14):
+    resolution: {integrity: sha512-P+pSyzoBiqP1rJhbQGUG07UAtR7MDE3UKIzLQbfN52MXESpiy75n5Yuu++CX1omFyXg4rJq4xWsAC8JuiVYqFg==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       sass: ^1.69.4
