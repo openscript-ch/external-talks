@@ -100,7 +100,9 @@ layout: two-cols-header
 
 ::left::
 
-left
+<IsVisible>
+  <iframe width="300" height="420" src="https://www.youtube.com/embed/g0_tTYPqNkw?controls=0&amp;autoplay=1&amp;color=white" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="margin: 0 auto;"></iframe>
+</IsVisible>
 
 ::right::
 
@@ -117,6 +119,11 @@ layout: two-cols-header
 # Lernspiel: HelloChinese
 
 ::left::
+
+<IsVisible>
+  <iframe width="300" height="420" src="https://www.youtube.com/embed/zedxBRM6ZQ8?controls=0&amp;autoplay=1&amp;color=white" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="margin: 0 auto;"></iframe>
+</IsVisible>
+
 
 ::right::
 
